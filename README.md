@@ -1,3 +1,1 @@
-# A skeleton Sinatra app built for deploying to Heroku
-
-That's all folks!
+The website for the 5C Hackathon
