@@ -96,11 +96,14 @@ section.content {
 
 .screen-title {
   padding: 40px;
-  color: white;
   font-size: 3em;
+  margin: 0;
+}
+
+.screen h1, .screen h2, .screen h3, .screen h4, .screen h5, .screen h6 {
   font-weight: 800;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  margin: 0;
+  color: white;
 }
 
 .center {
@@ -155,6 +158,20 @@ section.content {
     font-size: 2.5em;
   }
 
+#prizes .category .prize {
+  margin-top: 50px;
+}
+
+#prizes .category .prize ul {
+  padding-left: 40px;
+}
+#prizes .category .prize ul li {
+  font-size: 1.3em;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: white;
+  list-style: circle;
+}
 
 /****************************
 Footer
@@ -162,8 +179,19 @@ Footer
 
 footer {
     width: 100%;
-    height: 200px;
-    background: gray;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+footer p a {
+  color: white;
 }
 
 /****************************
