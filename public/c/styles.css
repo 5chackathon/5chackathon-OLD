@@ -34,6 +34,7 @@ header {
         line-height: 100px;
         font-size: 2em;
         font-weight: 700;
+        margin: 0;
     }
 
     header .right {
@@ -62,42 +63,56 @@ Main Content
 
 section.content {
     width: 100%;
-    background: blue;
 }
 
-.panel {
+.screen {
     height: 700px;
     position: relative;
 }
 
-.panel-1 {
+.screen-1 {
     background: rgb(38,174,144);
 }
 
-.panel-2 {
+.screen-2 {
     background: rgb(29, 36, 48);
 }
 
-.panel-3 {
+.screen-3 {
     background: rgb(213, 51, 37);
 }
 
-.panel-4 {
+.screen-4 {
     background: rgb(33, 93, 229);
 }
 
-.panel-5 {
+.screen-5 {
     background: rgb(230, 0, 120);
 }
 
-.panel-6 {
+.screen-6 {
     background: rgb(46, 172, 243);
+}
+
+.screen-title {
+  padding: 40px;
+  color: white;
+  font-size: 3em;
+  font-weight: 800;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 .center {
   width: 80%;
   margin: 0 10%;
   padding: 5% 0;
+}
+
+.top-left {
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .bottom-left {
@@ -111,6 +126,7 @@ section.content {
   margin: 0 25%;
   color: white;
   font-weight: 800;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 #home h2#date {
@@ -118,6 +134,7 @@ section.content {
   font-weight: 600;
   color: white;
   margin-top: 50px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 
