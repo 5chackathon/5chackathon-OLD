@@ -95,7 +95,7 @@ section.content {
 }
 
 .screen-title {
-  padding: 40px;
+  padding: 20px;
   font-size: 3em;
   margin: 0;
 }
@@ -173,6 +173,10 @@ section.content {
   list-style: circle;
 }
 
+#hack-week p {
+  color: white;
+  font-weight: 500;
+}
 /****************************
 Footer
 *****************************/
