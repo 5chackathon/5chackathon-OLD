@@ -159,13 +159,9 @@ section.content {
   left: 0;
 }
 
-/*#home h1 {
-  width: 50%;
-  margin: 0 25%;
-  color: white;
-  font-weight: 800;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}*/
+#home h1 {
+  overflow: hidden;
+}
 
 #home h2#date {
   font-size: 2em;
