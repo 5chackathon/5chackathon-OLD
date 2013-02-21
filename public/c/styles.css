@@ -14,6 +14,7 @@ a:hover {color: black;}
 .centered {text-align: center;}
 p {color: white; font-weight: 500; font-size: 18px;}
 .orange {color: orange;}
+.gold {color: #FFD700;}
 
 #jump-top-container {
   position: fixed;
@@ -231,7 +232,7 @@ div.container.sponsor-page .tier {
   margin: 40px auto;
 }
 div.container.sponsor-page .tier.gold h2 {
-  color: #FFD700;
+
 }
 
 div.container.sponsor-page .tier h2 {
