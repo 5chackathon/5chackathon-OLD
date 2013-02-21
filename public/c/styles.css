@@ -25,12 +25,15 @@ p {color: white; font-weight: 500; font-size: 18px;}
 #jump-top-container {
   background: white;
   height: 50px;
-  padding: 0 30px;
   line-height: 50px;
   text-align: center;
 }
 
 #jump-top-container a {
+  padding: 0 30px;
+  display: block;
+  width: 100%;
+  height: 100%;
   text-align: center;
   font-weight: 800;
   font-size: 1.6em;
