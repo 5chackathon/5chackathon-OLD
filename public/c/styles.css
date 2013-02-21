@@ -14,6 +14,26 @@ a:hover {color: black;}
 .centered {text-align: center;}
 p {color: white; font-weight: 500; font-size: 18px;}
 
+#jump-top-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+#jump-top-container {
+  background: white;
+  height: 50px;
+  padding: 0 30px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#jump-top-container a {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.6em;
+}
+
 
 /****************************
 Header
@@ -68,6 +88,7 @@ section.content {
 
 .screen {
     min-height: 700px;
+    padding-bottom: 50px;
     position: relative;
 }
 
@@ -190,10 +211,11 @@ footer p {
   text-align: center;
   color: white;
   margin: 0;
+  font-size: 12px;
 }
 
 footer p a {
-  color: white;
+  color: orange;
 }
 
 /****************************
