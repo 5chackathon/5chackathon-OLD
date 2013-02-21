@@ -13,6 +13,7 @@ a {color: rgb(80,80,80);text-decoration: none;}
 a:hover {color: black;}
 .centered {text-align: center;}
 p {color: white; font-weight: 500; font-size: 18px;}
+.orange {color: orange;}
 
 #jump-top-container {
   position: fixed;
