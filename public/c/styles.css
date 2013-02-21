@@ -89,7 +89,6 @@ section.content {
 }
 
 .screen {
-    min-height: 700px;
     padding-bottom: 50px;
     position: relative;
 }
@@ -130,11 +129,6 @@ section.content {
   color: white;
 }
 
-.center {
-  width: 80%;
-  margin: 0 10%;
-  padding: 5% 0;
-}
 
 .top-left {
   position: relative;
@@ -148,13 +142,13 @@ section.content {
   left: 0;
 }
 
-#home h1 {
+/*#home h1 {
   width: 50%;
   margin: 0 25%;
   color: white;
   font-weight: 800;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
+}*/
 
 #home h2#date {
   font-size: 2em;
@@ -247,6 +241,23 @@ div.container.sponsor-page .tier ul {
 div.container.sponsor-page .tier ul li {
   font-size: 1.4em;
 }
+
+/****************************
+Mobile
+*****************************/
+
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+  header .left {
+    float: none;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  header .right ul {
+    display: none;
+  }
+}
+
 /****************************
 Fonts
 *****************************/
