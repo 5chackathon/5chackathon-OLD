@@ -220,6 +220,33 @@ footer p a {
 }
 
 /****************************
+Sponsor page
+*****************************/
+
+div.container.sponsor-page {
+  background: rgb(46, 172, 243);
+}
+
+div.container.sponsor-page .tier {
+  margin: 40px auto;
+}
+div.container.sponsor-page .tier.gold h2 {
+  color: #FFD700;
+}
+
+div.container.sponsor-page .tier h2 {
+  margin: 0;
+}
+
+div.container.sponsor-page .tier ul {
+  list-style: disc;
+  color: white;
+}
+
+div.container.sponsor-page .tier ul li {
+  font-size: 1.4em;
+}
+/****************************
 Fonts
 *****************************/
 

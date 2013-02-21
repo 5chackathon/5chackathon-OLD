@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  erb :index
+    erb :index
+end
+
+get '/sponsors' do
+    erb :sponsors
 end
