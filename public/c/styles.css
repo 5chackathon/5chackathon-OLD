@@ -1,4 +1,4 @@
-html, body, .container {
+html, body {
     width: 100%;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal;
 }
@@ -102,7 +102,7 @@ Main Content
 *****************************/
 
 section.content {
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .screen {
