@@ -161,6 +161,7 @@ section.content {
 
 #home h1 {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #home h2#date {
