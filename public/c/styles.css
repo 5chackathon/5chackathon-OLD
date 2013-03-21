@@ -223,20 +223,16 @@ section.content {
   padding-bottom: 40px;
 }
 
-#devtools li {
+#devtools li, #judges li {
   padding-top: 30px;
-}
-
-#judges .thumb-panel {
-  margin-top: 35px;
 }
 
 #judges .thumb {
   width: 150px;
   height: 150px;
   overflow: hidden;
+  margin-right: 20px;
   float: left;
-  margin: 0px 20px 50px 0px;
 }
 
 #judges .thumb img {
