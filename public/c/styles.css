@@ -139,6 +139,10 @@ section.content {
   background: rgb(39, 46, 58);
 }
 
+.screen-8 {
+  background: rgb(255, 136, 0);
+}
+
 .screen-title {
   padding: 20px;
   font-size: 3em;
