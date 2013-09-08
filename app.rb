@@ -4,8 +4,8 @@ get '/' do
     erb :index
 end
 
-get '/sponsors' do
-    erb :sponsors
+get '/sponsor' do
+    erb :sponsor
 end
 
 get '/sponsorslist' do
