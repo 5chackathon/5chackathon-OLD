@@ -169,8 +169,8 @@ section.content {
 }
 
 #home h1 {
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow-y: visible;
+  overflow-x: visible;
 }
 
 #home h2#date {
