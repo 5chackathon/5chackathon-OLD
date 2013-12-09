@@ -289,10 +289,6 @@ footer p a {
 Sponsor page
 *****************************/
 
-div.container.sponsor-page {
-  background: rgb(38,174,144);
-}
-
 div.container.sponsor-page .tier {
   margin: 40px auto;
 }
