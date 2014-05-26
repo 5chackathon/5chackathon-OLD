@@ -1,0 +1,39 @@
+<html>
+<head>
+<title><%= @title %></title>
+<link rel="stylesheet" href="c/reset.css">
+<link rel="stylesheet" href="f/stylesheets/foundation.css">
+<link rel="stylesheet" href="c/styles.css">
+<link rel="stylesheet" href="c/slabtext.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type='text/javascript' src='j/modernizr-2.6.2.js'></script>
+<script type='text/javascript' src='j/slabtext.min.js'></script>
+<script type='text/javascript' src='j/jquery.smooth-scroll.min.js'></script>
+</head>
+<body>
+<header>
+  <div class='left'>
+    <h1><a href='/'>5C Hackathon</a></h1>
+    <h6> <a href='/sponsorslist'>Sponsors</a></h6>
+  </div>
+  <div class='right'>
+    <ul>
+      <li><a href='#information'>Info</a></li>
+      <li><a href='#schedule'>Schedule</a></li>
+      <li><a href='#prizes'>Prizes</a></li>
+      <li><a href='#hack-week'>Hack Week</a></li>
+      <li><a href='#developer-tools'>Tools</a></li>
+      <li><a href='#code-of-conduct'>Conduct</a></li>
+    </ul>
+  </div>
+</header>
+<%= yield %>
+<footer>
+  <p>built with love by <a class='gold' href='http://github.com/5chackathon'>The 5C Hackathon Team</a></p>
+</footer>
+<div id='jump-top-container' style='display:none;'>
+  <a href='#top'>jump ^</a>
+</div>
+<script type='text/javascript' src='j/app.js'></script>
+</body>
+</html>

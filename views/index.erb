@@ -1,284 +1,217 @@
-<html>
-<head>
-    <title>5C Hackathon</title>
-    <link rel="stylesheet" href="c/reset.css">
-    <link rel="stylesheet" href="f/stylesheets/foundation.css">
-    <link rel="stylesheet" href="c/styles.css">
-    <link rel="stylesheet" href="c/slabtext.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type='text/javascript' src='j/modernizr-2.6.2.js'></script>
-    <script type='text/javascript' src='j/slabtext.min.js'></script>
-    <script type='text/javascript' src='j/jquery.smooth-scroll.min.js'></script>
-</head>
-<body>
-    <div class='container' id='top'>
-        <!-- If anyone is motivated enough to deal with templating, go for it -->
-        <header>
-            <div class='left'>
-                <h1><a href='/'>5C Hackathon</a></h1>
-                <h6> <a href='/sponsorslist'>Sponsors</a></h6>
-            </div>
-            <div class='right'>
-                <ul>
-                    <li><a href='#information'>Info</a></li>
-                    <li><a href='#schedule'>Schedule</a></li>
-                    <li><a href='#prizes'>Prizes</a></li>
-                    <li><a href='#hack-week'>Hack Week</a></li>
-                    <li><a href='#developer-tools'>Tools</a></li>
-                    <li><a href='#code-of-conduct'>Conduct</a></li>
-                </ul>
-            </div>
-        </header>
-
-        <section class='content'>
-            <div class='screen screen-5' id='home'>
-                <div class='row'>
-                    <div class='six columns centered'>
-                            <h1 class='centered slab'>
-                                <span class='slabtext'>5th</span>
-                                <span class='slabtext'>Semiannual</span>
-                                <span class='slabtext'>5C Hackathon</span>
-                            </h1>
-                            <h2 class='centered' id='date'>April 11th-12th</h2>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class='screen screen-3' id='information'>
-                <div class='top-left'>
-                    <h2 class='screen-title'>Information</h2>
-                </div>
-                <div class='row'>
-                    <div class='twelve columns'>
-                        <h6>What is a hackathon?</h6>
-                        <p>According to Wikipedia, a hackathon (also known as a hack day, hackfest or codefest) is an event in which computer programmers and others in the field of software development, like graphic designers, interface designers and project managers collaborate intensively on software projects. We like to define it a little more casually: a 12 hour time period in which you get the chance to build whatever you want.</p>
-                        <h6>Do I need to be able to code to participate?</h6>
-                        <p>It definitely helps but is by no means a requirement. If you don't know how to code (or don't know how to apply the skills you've learned in class to the real world), come to <a class='gold' href="#hack-week">Hack Week</a> and we'll teach you! We also divide teams into a beginner and an advanced divison so you'll only be competing against teams with similar levels of experience.</p>
-                        <h6>Why is it overnight?</h6>
-                        <p>Because doing things overnight is way more badass. Plus, it means no distractions, freedom to take over the entire building, and the romance of watching the sun rise.</p>
-                        <h6>Why should I participate?</h6>
-                        <p>When was the last time you built something amazing? Something that wowed your friends and family? Something that you could put on your resume that would earn you the eternal stamp of 'badass'? Now's your chance to answer all of those questions in a single night. Plus, we'll have tons of food, crazy cool prizes, and some first-class people.</p>
-                        <h6>How do I find a team?</h6>
-                        <p>Teams can have a maximum of 4 members. You're encouraged to find your own team - pair up with friends, classmates, or random people you see in the CS labs! We don't require team registration, so just show up to the hackathon with your teammates and you're good to go. If you're having trouble finding a team, shoot us an email and we'll help match you with other students at a similar experience level.</p>
-                        <h6>Food and prizes, you say?</h6>
-                        <p>Yes, lots of food and lots of prizes. We always keep a fully-stocked food area complete with clementines, Oreos, tomatoes, Pop-Tarts, and tons more. Plus a food truck. This semester, by popular demand, we're bringing back the <a class='gold' href='http://www.crepesbonaparte.com/'/>Crepes Bonaparte</a> truck for a full three hours of serving.
-                    </div>
-                </div>
-            </div>
-            <div class='screen screen-2' id='schedule'>
-                <div class='top-left'>
-                    <h2 class='screen-title'>Schedule</h2>
-                </div>
-                <div class='row'>
-                    <div class='six columns'>
-                        <ul>
-                            <li>
-                                <h4 class='time'>7pm</h4>
-                                <h5>Kickoff</h5>
-                            </li>
-
-                            <li>
-                                <h4 class='time'>8pm</h4>
-                                <h5>Hacking begins</h5>
-                            </li>
-
-                            <li>
-                                <h4 class='time'>11pm</h4>
-                                <h5>Food truck rolls in</h5>
-                                <p>Crepes Bonaparte</p>
-                            </li>
-
-                            <li>
-                                <h4 class='time'>3am</h4>
-                                <h5>2-minute run</h5>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class='six columns'>
-                        <ul>
-                            <li>
-                                <h4 class='time'>4am</h4>
-                                <h5>Krispy Kreme</h5>
-                                <p>provided by Google</p>
-                            </li>
-
-                            <li>
-                                <h4 class='time'>6am</h4>
-                                <h5>Crunch time</h5>
-                            </li>
-
-                            <li>
-                                <h4 class='time'>8am</h4>
-                                <h5>Presentations and prizes</h5>
-                            </li>
-
-                            <li>
-                                <h4 class='time'>10am</h4>
-                                <h5>Bedtime</h5>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        <!--
-            <div class='screen screen-7' id='judges'>
-                <div class='top-left'>
-                    <h2 class='screen-title'>Judges</h2>
-                </div>
-                 <div class='row'>
-                    <div class='twelve columns'>
-                        <ul>
-                            <li class='row'>
-                                <div class='thumb'>
-                                    <img src='i/judges/anonymous.png' />
-                                </div>
-                                <div>
-                                    <h6>TBD</h6>
-                                    <p>Bio coming soon.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        -->
-
-        
-            <div class='screen screen-1' id='prizes'>
-                <div class='top-left'>
-                    <h2 class='screen-title'>Prizes</h2>
-                </div>
-                <div class='row'>
-                    <div class='six columns category'>
-                        <div class='prize'>
-                            <h5>1st place, Advanced</h5>
-                            <ul>
-                                <li>iPad 2s</li>
-                            </ul>
-                        </div>
-                        <div class='prize'>
-                            <h5>1st place, Beginner</h5>
-                            <ul>
-                                <li>Kindle Fires</li>
-                            </ul>
-                        </div>
-                        <div class='prize'>
-                            <h5>2nd place, Advanced</h5>
-                            <ul>
-                                <li>Bose Speakers</li>
-                            </ul>
-                        </div>
-                        <div class='prize'>
-                            <h5>2nd place, Beginner</h5>
-                            <ul>
-                                <li>Headphones</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class='six columns category'>
-                         <div class='prize'>
-                            <h5>Best Game</h5>
-                            <ul>
-                                <li>Nintendo 3DSes</li>
-                            </ul>
-                        </div>
-                        <div class='prize'>
-                            <h5>Best Design</h5>
-                            <ul>
-                                <li>Toshiba Canvios</li>
-                            </ul>
-                        </div>
-                        <div class='prize'>
-                            <h5>People's Choice</h5>
-                            <ul>
-                                <li>Sony SmartWatches</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-
-            <div class='screen screen-6' id='hack-week'>
-                <div class='top-left'>
-                    <h2 class='screen-title'>Hack Week</h2>
-                </div>
-                <div class='row'>
-                    <div class='twelve columns'>
-                        <h6>What is Hack Week?</h6>
-                        <p>Hack Week is a weeklong tutorial on how to build a full-featured web application from the ground up, designed for students with little to no prior programming experience. Our student teachers and mentors will work alongside you and walk you through the process of creating your very own web app so that by the end of the week, you'll have a fully functioning web app to show off to your friends. We'll get you up and running so that when it comes time for the hackathon, you can build something awesome.</p>
-                        <h6>When is Hack Week?</h6>
-                        <p>Hack Week is every evening from 7-9 pm starting the Monday before the hackathon and culminating in the 5C Hackathon on Friday.</p>
-                        <h6>What specific skills will I learn?</h6>
-                        <p>Everything you need to know to build a dynamic web application (or as much as we can teach you in 8 hours)! Last fall we covered basic HTML/CSS, front-end interactions with JavaScript and jQuery, web servers with NodeJS, sleek and easy design with Bootstrap, and databases with MongoDB.</p>
-                        <h6>Do I have to come every night?</h6>
-                        <p>We strongly encourage you to attend all four sessions to ensure that you have all the pieces of the web development puzzle. However, we understand that you may have other commitments so we will provide starter code at the beginning of each evening to get you up to speed with the work from the night before.</p>
-                        <h6>Where's the code?</h6>
-                        <p>Check out the apps from this year and previous years at <a class="orange" href="http://github.com/5chackathon">our Github</a>. During Hack Week, the starter code for each day will also be uploaded here.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class='screen screen-7' id='developer-tools'>
-                <div class='top-left'>
-                    <h2 class='screen-title'>Developer Tools</h2>
-                </div>
-                <div class='row'>
-                    <div class='twelve columns'>
-                        <h6>What are these?</h6>
-                        <p>These provided developer tools, APIs, and datasets are gifts from our sponsors to help you take your project to the next level and speed along the development process. Want to learn more? Be sure to stop one of the company representatives during the hackathon and ask them about their product!</p>
-                    </div>
-                </div>
-                <br/>
-                <div class='row'>
-                    <ul class='twelve columns'>
-                        <li>
-                            <span>
-                                <img class='four columns' src='i/atlassian/bitbucket_white.png' />
-                            </span>
-                            <span>
-                                <p>Host, manage, and share Git & Mercurial repositories in the cloud with <a class='orange' href='https://bitbucket.org/'>Bitbucket</a>. Free, unlimited private repositories for up to 5 developers, giving teams the flexibility to grow and code without restrictions.</p>
-                            </span>
-                        </li>
-                        <br/>
-                    </ul>
-                </div>
-            </div>
-
-            <div class='screen screen-5' id='code-of-conduct'>
-                <div class='top-left'>
-                    <h2 class='screen-title'>Code of Conduct</h2>
-                </div>
-                <div class='row'>
-                    <div class='twelve columns'>
-                        <p>We value the participation of each individual and want to provide a positive experience for everyone. Accordingly, all attendees are expected to show respect and courtesy to other attendees. To make clear what is expected, all attendees, speakers, and volunteers are required to follow our Code of Conduct, which will be strictly enforced as deemed necessary.</p>
-
-                        <h6>Be Respectful</h6>
-                        <p>Be kind to others. Do not insult or put down other attendees. Behave professionally. Remember that harassment and racist, sexist, or exclusionary jokes or project content are not appropriate for this event and will not be tolerated.</p>
-                        <p>Harassment includes but is not limited to offensive verbal comments related to gender, sexual orientation, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation; unwelcome photography or recording; inappropriate physical contact; and unwelcome sexual attention.</p>
-
-                        <h6>Be Open</h6>
-                        <p>We welcome attendees from all backgrounds and skill levels - from “never been to hackathon before” to seasoned developers. This event is about increasing innovation, partnership, and engagement in the technical community on campus.</p>
-
-                        <h6>Be Awesome</h6>
-                        <p>Do your best. Learn something new. Don't take it too seriously.</p>
-
-                        <p>Attendees violating these rules will be asked to leave the hackathon immediately at the discretion of the organizers. Thank you for helping make this a welcoming, safe space for all.</p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <footer>
-            <p>built with love by <a class='gold' href='http://github.com/5chackathon'>The 5C Hackathon Team</a></p>
-        </footer>
+<% @title="5C Hackathon" %>
+<div class='container' id='top'>
+  <section class='content'>
+    <div class='screen screen-5' id='home'>
+      <div class='row'>
+        <div class='six columns centered'>
+          <h1 class='centered slab'>
+            <span class='slabtext'>5th</span>
+            <span class='slabtext'>Semiannual</span>
+            <span class='slabtext'>5C Hackathon</span>
+          </h1>
+          <h2 class='centered' id='date'>April 11th-12th</h2>
+        </div>
+      </div>
     </div>
-    <div id='jump-top-container' style='display:none;'>
-        <a href='#top'>jump ^</a>
+
+    <div class='screen screen-3' id='information'>
+      <div class='top-left'>
+        <h2 class='screen-title'>Information</h2>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <h6>What is a hackathon?</h6>
+          <p>According to Wikipedia, a hackathon (also known as a hack day, hackfest or codefest) is an event in which computer programmers and others in the field of software development, like graphic designers, interface designers and project managers collaborate intensively on software projects. We like to define it a little more casually: a 12 hour time period in which you get the chance to build whatever you want.</p>
+          <h6>Do I need to be able to code to participate?</h6>
+          <p>It definitely helps but is by no means a requirement. If you don't know how to code (or don't know how to apply the skills you've learned in class to the real world), come to <a class='gold' href="#hack-week">Hack Week</a> and we'll teach you! We also divide teams into a beginner and an advanced divison so you'll only be competing against teams with similar levels of experience.</p>
+          <h6>Why is it overnight?</h6>
+          <p>Because doing things overnight is way more badass. Plus, it means no distractions, freedom to take over the entire building, and the romance of watching the sun rise.</p>
+          <h6>Why should I participate?</h6>
+          <p>When was the last time you built something amazing? Something that wowed your friends and family? Something that you could put on your resume that would earn you the eternal stamp of 'badass'? Now's your chance to answer all of those questions in a single night. Plus, we'll have tons of food, crazy cool prizes, and some first-class people.</p>
+          <h6>How do I find a team?</h6>
+          <p>Teams can have a maximum of 4 members. You're encouraged to find your own team - pair up with friends, classmates, or random people you see in the CS labs! We don't require team registration, so just show up to the hackathon with your teammates and you're good to go. If you're having trouble finding a team, shoot us an email and we'll help match you with other students at a similar experience level.</p>
+          <h6>Food and prizes, you say?</h6>
+          <p>Yes, lots of food and lots of prizes. We always keep a fully-stocked food area complete with clementines, Oreos, tomatoes, Pop-Tarts, and tons more. Plus a food truck. This semester, by popular demand, we're bringing back the <a class='gold' href='http://www.crepesbonaparte.com/'/>Crepes Bonaparte</a> truck for a full three hours of serving.
+        </div>
+      </div>
     </div>
-    <script type='text/javascript' src='j/app.js'></script>
-</body>
-</html>
+    <div class='screen screen-2' id='schedule'>
+      <div class='top-left'>
+        <h2 class='screen-title'>Schedule</h2>
+      </div>
+      <div class='row'>
+        <div class='six columns'>
+          <ul>
+            <li>
+            <h4 class='time'>7pm</h4>
+            <h5>Kickoff</h5>
+            </li>
+
+            <li>
+            <h4 class='time'>8pm</h4>
+            <h5>Hacking begins</h5>
+            </li>
+
+            <li>
+            <h4 class='time'>11pm</h4>
+            <h5>Food truck rolls in</h5>
+            <p>Crepes Bonaparte</p>
+            </li>
+
+            <li>
+            <h4 class='time'>3am</h4>
+            <h5>2-minute run</h5>
+            </li>
+          </ul>
+        </div>
+        <div class='six columns'>
+          <ul>
+            <li>
+            <h4 class='time'>4am</h4>
+            <h5>Krispy Kreme</h5>
+            <p>provided by Google</p>
+            </li>
+
+            <li>
+            <h4 class='time'>6am</h4>
+            <h5>Crunch time</h5>
+            </li>
+
+            <li>
+            <h4 class='time'>8am</h4>
+            <h5>Presentations and prizes</h5>
+            </li>
+
+            <li>
+            <h4 class='time'>10am</h4>
+            <h5>Bedtime</h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class='screen screen-1' id='prizes'>
+      <div class='top-left'>
+        <h2 class='screen-title'>Prizes</h2>
+      </div>
+      <div class='row'>
+        <div class='six columns category'>
+          <div class='prize'>
+            <h5>1st place, Advanced</h5>
+            <ul>
+              <li>iPad 2s</li>
+            </ul>
+          </div>
+          <div class='prize'>
+            <h5>1st place, Beginner</h5>
+            <ul>
+              <li>Kindle Fires</li>
+            </ul>
+          </div>
+          <div class='prize'>
+            <h5>2nd place, Advanced</h5>
+            <ul>
+              <li>Bose Speakers</li>
+            </ul>
+          </div>
+          <div class='prize'>
+            <h5>2nd place, Beginner</h5>
+            <ul>
+              <li>Headphones</li>
+            </ul>
+          </div>
+        </div>
+        <div class='six columns category'>
+          <div class='prize'>
+            <h5>Best Game</h5>
+            <ul>
+              <li>Nintendo 3DSes</li>
+            </ul>
+          </div>
+          <div class='prize'>
+            <h5>Best Design</h5>
+            <ul>
+              <li>Toshiba Canvios</li>
+            </ul>
+          </div>
+          <div class='prize'>
+            <h5>People's Choice</h5>
+            <ul>
+              <li>Sony SmartWatches</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='screen screen-6' id='hack-week'>
+      <div class='top-left'>
+        <h2 class='screen-title'>Hack Week</h2>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <h6>What is Hack Week?</h6>
+          <p>Hack Week is a weeklong tutorial on how to build a full-featured web application from the ground up, designed for students with little to no prior programming experience. Our student teachers and mentors will work alongside you and walk you through the process of creating your very own web app so that by the end of the week, you'll have a fully functioning web app to show off to your friends. We'll get you up and running so that when it comes time for the hackathon, you can build something awesome.</p>
+          <h6>When is Hack Week?</h6>
+          <p>Hack Week is every evening from 7-9 pm starting the Monday before the hackathon and culminating in the 5C Hackathon on Friday.</p>
+          <h6>What specific skills will I learn?</h6>
+          <p>Everything you need to know to build a dynamic web application (or as much as we can teach you in 8 hours)! Last fall we covered basic HTML/CSS, front-end interactions with JavaScript and jQuery, web servers with NodeJS, sleek and easy design with Bootstrap, and databases with MongoDB.</p>
+          <h6>Do I have to come every night?</h6>
+          <p>We strongly encourage you to attend all four sessions to ensure that you have all the pieces of the web development puzzle. However, we understand that you may have other commitments so we will provide starter code at the beginning of each evening to get you up to speed with the work from the night before.</p>
+          <h6>Where's the code?</h6>
+          <p>Check out the apps from this year and previous years at <a class="orange" href="http://github.com/5chackathon">our Github</a>. During Hack Week, the starter code for each day will also be uploaded here.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class='screen screen-7' id='developer-tools'>
+      <div class='top-left'>
+        <h2 class='screen-title'>Developer Tools</h2>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <h6>What are these?</h6>
+          <p>These provided developer tools, APIs, and datasets are gifts from our sponsors to help you take your project to the next level and speed along the development process. Want to learn more? Be sure to stop one of the company representatives during the hackathon and ask them about their product!</p>
+        </div>
+      </div>
+      <br/>
+      <div class='row'>
+        <ul class='twelve columns'>
+          <li>
+          <span>
+            <img class='four columns' src='i/atlassian/bitbucket_white.png' />
+          </span>
+          <span>
+            <p>Host, manage, and share Git &amp; Mercurial repositories in the cloud with <a class='orange' href='https://bitbucket.org/'>Bitbucket</a>. Free, unlimited private repositories for up to 5 developers, giving teams the flexibility to grow and code without restrictions.</p>
+          </span>
+          </li>
+          <br/>
+        </ul>
+      </div>
+    </div>
+
+    <div class='screen screen-5' id='code-of-conduct'>
+      <div class='top-left'>
+        <h2 class='screen-title'>Code of Conduct</h2>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <p>We value the participation of each individual and want to provide a positive experience for everyone. Accordingly, all attendees are expected to show respect and courtesy to other attendees. To make clear what is expected, all attendees, speakers, and volunteers are required to follow our Code of Conduct, which will be strictly enforced as deemed necessary.</p>
+
+          <h6>Be Respectful</h6>
+          <p>Be kind to others. Do not insult or put down other attendees. Behave professionally. Remember that harassment and racist, sexist, or exclusionary jokes or project content are not appropriate for this event and will not be tolerated.</p>
+          <p>Harassment includes but is not limited to offensive verbal comments related to gender, sexual orientation, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation; unwelcome photography or recording; inappropriate physical contact; and unwelcome sexual attention.</p>
+
+          <h6>Be Open</h6>
+          <p>We welcome attendees from all backgrounds and skill levels - from “never been to hackathon before” to seasoned developers. This event is about increasing innovation, partnership, and engagement in the technical community on campus.</p>
+
+          <h6>Be Awesome</h6>
+          <p>Do your best. Learn something new. Don't take it too seriously.</p>
+
+          <p>Attendees violating these rules will be asked to leave the hackathon immediately at the discretion of the organizers. Thank you for helping make this a welcoming, safe space for all.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

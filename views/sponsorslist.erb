@@ -1,98 +1,39 @@
-<html>
-<head>
-    <title>Sponsors</title>
-    <link rel="stylesheet" href="c/reset.css">
-    <link rel="stylesheet" href="f/stylesheets/foundation.css">
-    <link rel="stylesheet" href="c/styles.css">
-    <link rel="stylesheet" href="c/slabtext.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type='text/javascript' src='j/modernizr-2.6.2.js'></script>
-    <script type='text/javascript' src='j/slabtext.min.js'></script>
-    <script type='text/javascript' src='j/jquery.smooth-scroll.min.js'></script>
-    <script type='text/javascript' src='j/app.js'></script>
-</head>
-<body>
-    <header>
-            <div class='left'>
-                <h1> <a href='/sponsorslist'>Sponsors</a></h1>
-                <h1><a href="/#register">Register</a></h1>
-            </div>
-            <div class='right'>
-                <ul>
-                    <li><a href='/#information'>Info</a></li>
-                    <li><a href='/#schedule'>Schedule</a></li>
-                    <li><a href='/#prizes'>Prizes</a></li>
-                    <li><a href='/#hack-week'>Hack Week</a></li>
-                    <li><a href='/#developer-tools'>Tools</a></li>
-                    <li><a href='/#code-of-conduct'>Conduct</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <div class="container" id='sponsors'>
-        <div class='heading screen-5'>
-            <h2>Thanks to our Sponsors!</h2>
-            <div class='row'>
-                <div class='twelve columns centered'>
-                    <h6>
-                        Interested in sponsoring the 5C Hackathon next fall?<br/> Click <a class='blue' href='/sponsor'>here</a> for more information.
-                    </h6>
-                </div>
-            </div>
-        </div>
-        <div class='row'>
-            <ul class='twelve columns'>
-                <!-- Gold Sponsors -->
-                <h4>Gold Sponsors</h4>
-
-                <li>
-                    <span>
-                        <img class='four columns' src='i/intuit/intuit_c_r.png' />
-                    </span>
-                    <span>
-                        <p>As we begin our second quarter century, <a class='blue' href='http://careers.intuit.com'/>Intuit</a>'s array of flagship brands is expanding to reflect the growing number of ways we help people solve their important problems. Whether helping balance a checkbook, run a small business, or pay income taxes, our innovative solutions have simplified millions of people's lives. In a world where emerging technology and market trends are changing the way people live and work, we'll continue to develop new products that offer the same ease and delight that are a hallmark of Intuit's pursuit of customer-driven innovation.</p>
-                    </span>
-                </li>
-
-
-                <!-- Meraki Inforamation -->
-                <li>
-                    <span>
-                        <img class='four columns' src='i/Meraki/cisco_crop.png ' />
-                    </span>
-                    <span>
-                        <p>In 2003, a group of graduate students at MIT set out to build a simple, scalable and cost-effective wireless network to blanket Cambridge, MA. They succeeded, and in the process, invented a new network architecture, based in cloud computing, to make truly plug and play large-scale networks. Realizing they were on to something big, they left MIT, moved to California and started <a class='blue' href='https://meraki.cisco.com/'>Meraki</a>, now part of Cisco.</p>
-
-                        <p>Cisco Meraki products are managed entirely over the web, and is available in more than 130 countries and counting. Users can quickly sift through historical data, perform diagnostics, and set up complex network configurations through an intuitive web interface. </p>
-
-                        <p>Our team is still small enough that all our engineers will work on problems core to our business. We are also growing quickly, with a proven model for our technology. We have small nimble teams from 2 - 5 people and there is no red tape in development - its the successful start-up that you can get the small feel with world-wide impact. Developing and scaling our system requires exceptional engineering ability across the stack- ranging from device drivers to user interfaces and distributed backend systems. We're always looking for more talented folks to join our team, as well as looking for ways to get involved on campus. Looking forward to meeting some more bright minds from the Claremont Colleges!</p>
-                    </span>
-                </li>
-
-                <!-- Silver Sponsors -->
-                <h4>Silver Sponsors</h4>
-
-                <li>
-                    <span>
-                        <img class='three columns' src='i/atlassian/logoAtlassianPNG.png' />
-                    </span>
-                    <span>
-                        <p><a class='blue' href='https://www.atlassian.com/company/careers'>Atlassian</a> is an award-winning enterprise software company that helps innovators everywhere plan, build, and launch great software. Atlassian's portfolio of products includes JIRA, the industry-leading project and issue tracking software; Confluence, its content collaboration product; Hipchat, and a broad range of popular developer tools.</p>
-                    </span>
-                </li>
-                <h4>Friends of the 5C Hackathon</h4>
-                <li>
-                    <span>
-                        <img class='three columns' src='i/svp/svp.png' />
-                    </span>
-                    <span>
-                        <p>
-                            Students of the Claremont Colleges may apply their liberal arts education to the modern challenges of technology and entrepreneurship through a unique semester “abroad” in Silicon Valley.  Centered around a full-time internship at a technology company of a student’s choosing, students take two courses and write an independent study research paper on a topic of his/her choice. The  <a class='blue' href='http://www.cmc.edu/svp/'>Silicon Valley Program</a> is open to sophomores, juniors, and seniors from all 5Cs, regardless of major.
-                        </p>
-                    </span>
-                </li>
-            </ul>
-        </div>
+<% @title="Sponsor the 5C Hackathon" %>
+<div class="container" id='sponsors'>
+  <div class='heading screen-5'>
+    <h2>Thanks to our Sponsors!</h2>
+    <div class='row'>
+      <div class='twelve columns centered'>
+        <h6>Interested in sponsoring the 5C Hackathon next fall?<br/> Click <a class='blue' href='/sponsor'>here</a> for more information.</h6>
+      </div>
     </div>
-</body>
-</html>
+  </div>
+  <div class='row'>
+    <ul class='twelve columns'>
+      <h4>Gold Sponsors</h4>
+      <li>
+        <span><img class='four columns' src='i/intuit/intuit_c_r.png' /></span>
+        <span><p>As we begin our second quarter century, <a class='blue' href='http://careers.intuit.com'/>Intuit</a>'s array of flagship brands is expanding to reflect the growing number of ways we help people solve their important problems. Whether helping balance a checkbook, run a small business, or pay income taxes, our innovative solutions have simplified millions of people's lives. In a world where emerging technology and market trends are changing the way people live and work, we'll continue to develop new products that offer the same ease and delight that are a hallmark of Intuit's pursuit of customer-driven innovation.</p></span>
+      </li>
+
+      <!-- Meraki Inforamation -->
+      <li>
+        <span><img class='four columns' src='i/Meraki/cisco_crop.png ' /></span>
+        <p>In 2003, a group of graduate students at MIT set out to build a simple, scalable and cost-effective wireless network to blanket Cambridge, MA. They succeeded, and in the process, invented a new network architecture, based in cloud computing, to make truly plug and play large-scale networks. Realizing they were on to something big, they left MIT, moved to California and started <a class='blue' href='https://meraki.cisco.com/'>Meraki</a>, now part of Cisco.</p>
+        <p>Cisco Meraki products are managed entirely over the web, and is available in more than 130 countries and counting. Users can quickly sift through historical data, perform diagnostics, and set up complex network configurations through an intuitive web interface. </p>
+        <p>Our team is still small enough that all our engineers will work on problems core to our business. We are also growing quickly, with a proven model for our technology. We have small nimble teams from 2 - 5 people and there is no red tape in development - its the successful start-up that you can get the small feel with world-wide impact. Developing and scaling our system requires exceptional engineering ability across the stack- ranging from device drivers to user interfaces and distributed backend systems. We're always looking for more talented folks to join our team, as well as looking for ways to get involved on campus. Looking forward to meeting some more bright minds from the Claremont Colleges!</p>
+      </li>
+
+      <h4>Silver Sponsors</h4>
+      <li>
+        <img class='three columns' src='i/atlassian/logoAtlassianPNG.png' />
+        <p><a class='blue' href='https://www.atlassian.com/company/careers'>Atlassian</a> is an award-winning enterprise software company that helps innovators everywhere plan, build, and launch great software. Atlassian's portfolio of products includes JIRA, the industry-leading project and issue tracking software; Confluence, its content collaboration product; Hipchat, and a broad range of popular developer tools.</p>
+      </li>
+      <h4>Friends of the 5C Hackathon</h4>
+      <li>
+        <img class='three columns' src='i/svp/svp.png' />
+        <p>Students of the Claremont Colleges may apply their liberal arts education to the modern challenges of technology and entrepreneurship through a unique semester “abroad” in Silicon Valley.  Centered around a full-time internship at a technology company of a student’s choosing, students take two courses and write an independent study research paper on a topic of his/her choice. The  <a class='blue' href='http://www.cmc.edu/svp/'>Silicon Valley Program</a> is open to sophomores, juniors, and seniors from all 5Cs, regardless of major.</p>
+      </li>
+    </ul>
+  </div>
+</div>
