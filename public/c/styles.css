@@ -28,6 +28,10 @@ p {color: white; font-weight: 500; font-size: 18px;}
   height: 50px;
   line-height: 50px;
   text-align: center;
+  border-left: 1 solid gray;
+  border-top: 1 solid gray;
+  border-right: 3 solid gray;
+  border-bottom: 3 solid gray;
 }
 
 #jump-top-container a {
